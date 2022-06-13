@@ -1,0 +1,28 @@
+body {
+    padding: 50px;
+}
+
+p {
+    padding: 0;
+    cursor: pointer;
+}
+
+::selection {
+    color: none;
+    background: none;
+}
+/* For Mozilla Firefox */
+::-moz-selection {
+    color: none;
+    background: none;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.complete {
+    text-decoration: line-through;
+}
